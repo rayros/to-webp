@@ -38,5 +38,8 @@
     "glob": "^7.1.6",
     "imagemin": "^7.0.1",
     "imagemin-webp": "^6.0.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
