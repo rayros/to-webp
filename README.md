@@ -10,14 +10,14 @@ Usage: to-webp [options]
 Convert png,jpg to webp if modification date is different.
 
 Options:
-  -p, --pattern "<pattern>"  glob path pattern
-  -h, --help               display help for command
+  -p, --pattern '<pattern>'  glob path pattern
+  -h, --help                 display help for command
 ```
 
 *Example:* 
 
 ```bash
-to-webp -p "./src/assets/!(icons)/**/*.{png,jpeg,jpg}"
+to-webp -p './src/assets/!(icons)/**/*.{png,jpeg,jpg}'
 ```
 
 **Use in your own program**

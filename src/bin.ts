@@ -5,7 +5,7 @@ import { toWebP } from '.';
 
 program
   .description('Convert png,jpg to webp if modification date is different.')
-  .requiredOption('-p, --pattern "<pattern>"', 'glob path pattern')
+  .requiredOption("-p, --pattern '<pattern>'", 'glob path pattern')
   .parse(process.argv);
 
 toWebP(program.pattern)

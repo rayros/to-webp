@@ -1,6 +1,6 @@
 {
   "name": "to-webp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert png,jpg to webp if modification date is different.",
   "bin": "dist/bin.js",
   "main": "dist/index.js",
