@@ -1,11 +1,11 @@
 {
   "name": "to-webp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert png,jpg to webp if modification date is different.",
   "bin": "dist/bin.js",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
