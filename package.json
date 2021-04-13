@@ -1,7 +1,7 @@
 {
   "name": "to-webp",
-  "version": "1.0.2",
-  "description": "Convert png,jpg to webp if modification date is different.",
+  "version": "1.0.3",
+  "description": "Convert png, jpg to webp if modification date is different.",
   "bin": "dist/bin.js",
   "main": "dist/index.js",
   "scripts": {
@@ -30,11 +30,11 @@
     "@types/glob": "^7.1.3",
     "@types/imagemin": "^7.0.0",
     "@types/imagemin-webp": "^5.1.1",
-    "@types/node": "^14.11.10",
-    "typescript": "^4.0.3"
+    "@types/node": "^14.14.37",
+    "typescript": "^4.2.4"
   },
   "dependencies": {
-    "commander": "^6.1.0",
+    "commander": "^7.2.0",
     "glob": "^7.1.6",
     "imagemin": "^7.0.1",
     "imagemin-webp": "^6.0.0"

@@ -8,7 +8,9 @@ program
   .requiredOption("-p, --pattern '<pattern>'", 'glob path pattern')
   .parse(process.argv);
 
-toWebP(program.pattern)
+const options = program.opts();
+
+toWebP(options.pattern)
   .then(() => {
     console.log('Conversion to webp complete.');
   })

@@ -65,7 +65,7 @@ const runImagemin = async (matches: string[]) => {
 };
 
 export const toWebP = (pattern: string) =>
-  new Promise((resolve: () => void, reject: (reason: any) => void) => {
+  new Promise((resolve: (value: void) => void, reject: (reason: any) => void) => {
     glob(
       pattern,
       async (error: Error | null, matches: string[]): Promise<void> => {
